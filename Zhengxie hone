@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>政协之家</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style>
+    body { font-family: "Microsoft YaHei", Arial, sans-serif; margin: 0; background: #f6f7fb;}
+    header { background: #c32025; color: #fff; padding: 20px; display: flex; align-items: center; justify-content: space-between;}
+    .logo { font-weight: bold; font-size: 1.5em; }
+    nav { margin-left: 40px;}
+    nav a { color: #fff; text-decoration: none; margin: 0 16px; font-size: 1em;}
+    .banner { width: 100%; height: 180px; background: url('https://dummyimage.com/1200x300/4682b4/fff&text=Banner') center/cover no-repeat; margin-bottom: 24px;}
+    .content { max-width: 1100px; margin: auto; }
+    .section { background: #fff; border-radius: 12px; margin-bottom: 24px; padding: 20px; box-shadow: 0 2px 10px #e3e3e6;}
+    .flex { display: flex; gap: 24px;}
+    .notice, .quicklinks { flex: 1; }
+    .quicklinks { display: flex; flex-direction: column; gap: 12px; }
+    .quicklinks button { background: #c32025; color: #fff; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-size: 1em;}
+    .members-list { display: flex; gap: 16px; flex-wrap: wrap;}
+    .member-card { width: 130px; text-align: center; background: #f8f8fa; border-radius: 8px; padding: 10px 0;}
+    .member-card img { width: 60px; height: 60px; border-radius: 50%; }
+    footer { padding: 30px 0; background: #30313b; color: #dfe1ed; text-align: center; }
+    @media (max-width: 700px) {
+      .flex { flex-direction: column; }
+      .banner { height: 100px !important; }
+      .content { padding: 8px;}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <span class="logo">政协之家</span>
+  <nav>
+    <a href="#">首页</a>
+    <a href="#">提案管理</a>
+    <a href="#">会议管理</a>
+    <a href="#">委员库</a>
+    <a href="#">互动交流</a>
+  </nav>
+  <div>用户头像</div>
+</header>
+<div class="banner"></div>
+<main class="content">
+  <div class="flex section">
+    <div class="notice">
+      <h3>通知公告</h3>
+      <ul>
+        <li>2026年度政协全会会议通知</li>
+        <li>关于征集今年提案的通知</li>
+        <li>委员年度履职资料提交公告</li>
+      </ul>
+    </div>
+    <div class="quicklinks">
+      <h3>快捷入口</h3>
+      <button>我要提案</button>
+      <button>会议日程</button>
+      <button>委员检索</button>
+      <button>意见征集</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>工作动态</h3>
+    <ul>
+      <li>政协委员调研社区养老工作</li>
+      <li>2026年提案办理“面对面”活动纪实</li>
+      <li>常委会召开第二季度例会</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>活跃委员</h3>
+    <div class="members-list">
+      <div class="member-card">
+        <img src="https://dummyimage.com/60x60/adc6e2/fff&text=A" alt="委员A">
+        <div>张三</div><small>社会福利组</small>
+      </div>
+      <div class="member-card">
+        <img src="https://dummyimage.com/60x60/adc6e2/fff&text=B" alt="委员B">
+        <div>李四</div><small>科技组</small>
+      </div>
+      <div class="member-card">
+        <img src="https://dummyimage.com/60x60/adc6e2/fff&text=C" alt="委员C">
+        <div>王五</div><small>教育组</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>联系我们</h3>
+    <p>电话：010-12345678</p>
+    <p>地址：北京市政协大厦A座1楼</p>
+    <p>邮箱：zxh@beijing.gov.cn</p>
+  </div>
+</main>
+<footer>
+  © 2026 政协之家 版权所有 | 京ICP备XXXXXXX号
+</footer>
+</body>
+</html>
